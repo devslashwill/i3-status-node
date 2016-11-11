@@ -1,0 +1,24 @@
+{
+  "name": "i3-status-node",
+  "version": "0.0.1",
+  "description": "A simple NodeJS status bar for i3wm that supports colour.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillFour20/i3-status-node.git"
+  },
+  "keywords": [
+    "i3",
+    "i3wm",
+    "status",
+    "bar"
+  ],
+  "bin": {
+    "i3-status-node": "./i3-status-node.js"
+  },
+  "author": "Will Homer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WillFour20/i3-status-node/issues"
+  },
+  "homepage": "https://github.com/WillFour20/i3-status-node#readme"
+}
