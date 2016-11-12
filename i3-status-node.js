@@ -65,8 +65,8 @@ fs.readFile(layoutFilePath, (error, data) => {
     if (error)
         throw console.error("Failed to read config.json", error);
 
-    var configData = JSON.parse(data.toString());
     try {
+        var configData = JSON.parse(data.toString());
         layoutData = configData.layout || [];
         separatorWidth = configData.separatorWidth || 9;
     } catch (error) {
